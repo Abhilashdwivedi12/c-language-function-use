@@ -1,2 +1,2 @@
 # c-language-function-use
-calculator
+calculator use function simple
