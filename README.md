@@ -1,2 +1,2 @@
 # c-language-function-use
-calculator use function simple
+using function switch statement we built long and sort method calculator
