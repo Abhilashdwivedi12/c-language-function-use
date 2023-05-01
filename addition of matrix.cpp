@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int a[2][2],b[2][2],c[2][2],i,j,k,sum=0;
+	int a[2][2],b[2][2],c[2][2],i,j;
 
 	printf("enter the first matrix");
 	for(int i=0;i<2;i++)
@@ -29,24 +29,23 @@ int main()
 	{
 		for(int j=0;j<2;j++)
 	{
-		sum=0;
-		for(int k=0;k<2;k++){
-			sum=sum+a[i][j]*b[i][j];
+		
+		c[i][j]=a[i][j]+b[i][j];
 		}
 	}
 	
 	
-}
+
 	{
 	printf("\n");
 }
-		printf("the multiplication\n");
+		printf("the addition");
 	for(int i=0;i<2;i++)
 	{
 		for(int j=0;j<2;j++)
 	
 	
-	printf("%d",sum);
+	printf("%d",c[i][j]);
 	{
 	printf("\n");
 }
